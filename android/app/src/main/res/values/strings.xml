@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GolfRules &amp; PlayTrack</string>
+    <string name="title_activity_main">GolfRules &amp; PlayTrack</string>
+    <string name="package_name">clublink.golfrules.playtrack</string>
+    <string name="custom_url_scheme">clublink.golfrules.playtrack</string>
+</resources>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>GolfRules AI PlayTrack</title>
+
+    <!-- Tailwind (opzionale, se lo vuoi via CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYtTxLOg1O5h-YibziMj-0ugwr-JRtJ4Q&libraries=geometry,drawing,places&loading=async"></script>
+
+    <style>
+      .scrollbar-hide::-webkit-scrollbar { display: none; }
+      .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+
+  <body class="bg-slate-950 text-slate-100 antialiased">
+    <div id="root"></div>
+
+    <!-- ENTRYPOINT VITE: carica index.tsx -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

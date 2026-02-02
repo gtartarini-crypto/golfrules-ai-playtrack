@@ -1,0 +1,9 @@
+{
+  "name": "GolfRules AI PlayTrack 1.3.4- Timbro digitale + Greenkeeper",
+  "description": "Assistente arbitrale di golf intelligente con supporto offline e vocale con il tracciamento della posizione del giocatore",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ]
+}

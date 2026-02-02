@@ -1,0 +1,35 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Capacitor build
+android/.gradle/
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+ios/App/build/
+
+# Vite / Ionic build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Firebase
+.firebase/
+.firebaserc
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Backup
+android_backup/
+android_backup_old/
